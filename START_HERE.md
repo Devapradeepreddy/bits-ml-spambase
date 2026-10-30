@@ -1,5 +1,13 @@
 # Start here - complete ML Assignment 2 project
 
+Live app: https://deva-bits-ml-spambase.streamlit.app/
+
+Public source: https://github.com/Devapradeepreddy/bits-ml-spambase
+
+The app is already deployed. Complete your own BITS Virtual Lab execution and
+add its genuine screenshot to the prepared submission report. The setup and
+deployment steps below also document how to reproduce the project yourself.
+
 The five trained models and sample test data are already included. You can run
 the app immediately after installing the dependencies. No Azure/OpenAI key,
 paid service, or dataset download is needed.

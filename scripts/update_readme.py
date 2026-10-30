@@ -62,6 +62,10 @@ def run(config_path=None):
 
 M.Tech (AIML), Machine Learning - Assignment 2
 
+Live application: {streamlit}
+
+Public source: {github}
+
 ## a. Problem statement
 
 Classify an email as spam (1) or non-spam (0) from 57 precomputed numeric

@@ -185,7 +185,13 @@ def main():
     story = [Paragraph("Machine Learning<br/>Assignment 2", styles["ReportTitle"]),
              Paragraph("SpamScope: Five-model classification comparison", styles["SectionTitle"])]
     if args.draft:
-        story.append(Paragraph("<b>DRAFT - NOT READY FOR SUBMISSION</b><br/>Real publication links, student details and BITS Virtual Lab proof must be supplied before final submission.", styles["BodyCopy"]))
+        required_labels = {
+            "student_name": "student name", "bits_id": "BITS ID", "github_url": "GitHub link",
+            "streamlit_url": "live app link", "lab_screenshot": "BITS Virtual Lab execution screenshot",
+        }
+        pending = [label for key, label in required_labels.items() if not config.get(key)]
+        pending_text = "; ".join(pending) if pending else "final review and screenshot verification"
+        story.append(Paragraph("<b>DRAFT - COMPLETE BEFORE SUBMISSION</b><br/>Pending: " + escape(pending_text) + ".", styles["BodyCopy"]))
     story.extend([Paragraph("Student: " + escape(config.get("student_name") or "Pending"), styles["BodyCopy"]),
                   Paragraph("BITS ID: " + escape(config.get("bits_id") or "Pending"), styles["BodyCopy"]), Spacer(1, 12)])
     for title, key in [("1. GitHub repository link", "github_url"), ("2. Live Streamlit application link", "streamlit_url")]:

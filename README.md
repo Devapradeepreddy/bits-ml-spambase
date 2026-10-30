@@ -2,6 +2,10 @@
 
 M.Tech (AIML), Machine Learning - Assignment 2
 
+Live application: https://deva-bits-ml-spambase.streamlit.app/
+
+Public source: https://github.com/Devapradeepreddy/bits-ml-spambase
+
 ## a. Problem statement
 
 Classify an email as spam (1) or non-spam (0) from 57 precomputed numeric
@@ -39,7 +43,7 @@ the results are not evidence of performance on present-day email.
 
 GitHub repository: https://github.com/Devapradeepreddy/bits-ml-spambase
 
-Live Streamlit application: Pending deployment - replace with the actual live Streamlit app URL.
+Live Streamlit application: https://deva-bits-ml-spambase.streamlit.app/
 
 The repository includes app.py, requirements.txt, README.md, test_data.csv,
 training source, all five saved models, preprocessing pipelines, original data,
