@@ -1,0 +1,247 @@
+{
+  "Logistic Regression": {
+    "metrics": {
+      "Accuracy": 0.9120521172638436,
+      "AUC": 0.9705436574938041,
+      "Precision": 0.9122807017543859,
+      "Recall": 0.859504132231405,
+      "F1": 0.8851063829787233,
+      "MCC": 0.8149169929261183
+    },
+    "confusion_matrix": [
+      [
+        528,
+        30
+      ],
+      [
+        51,
+        312
+      ]
+    ],
+    "classification_report": {
+      "Non-spam (0)": {
+        "precision": 0.9119170984455959,
+        "recall": 0.946236559139785,
+        "f1-score": 0.9287598944591029,
+        "support": 558.0
+      },
+      "Spam (1)": {
+        "precision": 0.9122807017543859,
+        "recall": 0.859504132231405,
+        "f1-score": 0.8851063829787233,
+        "support": 363.0
+      },
+      "accuracy": 0.9120521172638436,
+      "macro avg": {
+        "precision": 0.9120989000999908,
+        "recall": 0.902870345685595,
+        "f1-score": 0.9069331387189131,
+        "support": 921.0
+      },
+      "weighted avg": {
+        "precision": 0.9120604078930342,
+        "recall": 0.9120521172638436,
+        "f1-score": 0.9115544387941976,
+        "support": 921.0
+      }
+    },
+    "score_name": "spam_probability",
+    "fit_seconds": 0.09191087600004266
+  },
+  "Decision Tree": {
+    "metrics": {
+      "Accuracy": 0.9066232356134636,
+      "AUC": 0.9174985435982503,
+      "Precision": 0.8945868945868946,
+      "Recall": 0.8650137741046832,
+      "F1": 0.8795518207282913,
+      "MCC": 0.8036484612393887
+    },
+    "confusion_matrix": [
+      [
+        521,
+        37
+      ],
+      [
+        49,
+        314
+      ]
+    ],
+    "classification_report": {
+      "Non-spam (0)": {
+        "precision": 0.9140350877192982,
+        "recall": 0.9336917562724014,
+        "f1-score": 0.9237588652482269,
+        "support": 558.0
+      },
+      "Spam (1)": {
+        "precision": 0.8945868945868946,
+        "recall": 0.8650137741046832,
+        "f1-score": 0.8795518207282913,
+        "support": 363.0
+      },
+      "accuracy": 0.9066232356134636,
+      "macro avg": {
+        "precision": 0.9043109911530964,
+        "recall": 0.8993527651885422,
+        "f1-score": 0.9016553429882591,
+        "support": 921.0
+      },
+      "weighted avg": {
+        "precision": 0.9063698389602727,
+        "recall": 0.9066232356134636,
+        "f1-score": 0.9063352418380893,
+        "support": 921.0
+      }
+    },
+    "score_name": "spam_probability",
+    "fit_seconds": 0.07762584099998548
+  },
+  "KNN": {
+    "metrics": {
+      "Accuracy": 0.9098805646036916,
+      "AUC": 0.9592553096951923,
+      "Precision": 0.9,
+      "Recall": 0.8677685950413223,
+      "F1": 0.8835904628330996,
+      "MCC": 0.8104724683660163
+    },
+    "confusion_matrix": [
+      [
+        523,
+        35
+      ],
+      [
+        48,
+        315
+      ]
+    ],
+    "classification_report": {
+      "Non-spam (0)": {
+        "precision": 0.9159369527145359,
+        "recall": 0.9372759856630825,
+        "f1-score": 0.9264836138175376,
+        "support": 558.0
+      },
+      "Spam (1)": {
+        "precision": 0.9,
+        "recall": 0.8677685950413223,
+        "f1-score": 0.8835904628330996,
+        "support": 363.0
+      },
+      "accuracy": 0.9098805646036916,
+      "macro avg": {
+        "precision": 0.907968476357268,
+        "recall": 0.9025222903522023,
+        "f1-score": 0.9050370383253186,
+        "support": 921.0
+      },
+      "weighted avg": {
+        "precision": 0.909655613045289,
+        "recall": 0.9098805646036916,
+        "f1-score": 0.9095778442112933,
+        "support": 921.0
+      }
+    },
+    "score_name": "spam_probability",
+    "fit_seconds": 0.021219830999939404
+  },
+  "Naive Bayes": {
+    "metrics": {
+      "Accuracy": 0.8458197611292074,
+      "AUC": 0.9531433593017171,
+      "Precision": 0.733615221987315,
+      "Recall": 0.9559228650137741,
+      "F1": 0.8301435406698564,
+      "MCC": 0.7138269597744077
+    },
+    "confusion_matrix": [
+      [
+        432,
+        126
+      ],
+      [
+        16,
+        347
+      ]
+    ],
+    "classification_report": {
+      "Non-spam (0)": {
+        "precision": 0.9642857142857143,
+        "recall": 0.7741935483870968,
+        "f1-score": 0.8588469184890656,
+        "support": 558.0
+      },
+      "Spam (1)": {
+        "precision": 0.733615221987315,
+        "recall": 0.9559228650137741,
+        "f1-score": 0.8301435406698564,
+        "support": 363.0
+      },
+      "accuracy": 0.8458197611292074,
+      "macro avg": {
+        "precision": 0.8489504681365146,
+        "recall": 0.8650582067004354,
+        "f1-score": 0.844495229579461,
+        "support": 921.0
+      },
+      "weighted avg": {
+        "precision": 0.8733699827935113,
+        "recall": 0.8458197611292074,
+        "f1-score": 0.8475338607818204,
+        "support": 921.0
+      }
+    },
+    "score_name": "spam_probability",
+    "fit_seconds": 0.023618210999984512
+  },
+  "Support Vector Machine": {
+    "metrics": {
+      "Accuracy": 0.9185667752442996,
+      "AUC": 0.9723209613238939,
+      "Precision": 0.9137931034482759,
+      "Recall": 0.8760330578512396,
+      "F1": 0.8945147679324894,
+      "MCC": 0.8287388957025132
+    },
+    "confusion_matrix": [
+      [
+        528,
+        30
+      ],
+      [
+        45,
+        318
+      ]
+    ],
+    "classification_report": {
+      "Non-spam (0)": {
+        "precision": 0.9214659685863874,
+        "recall": 0.946236559139785,
+        "f1-score": 0.9336870026525199,
+        "support": 558.0
+      },
+      "Spam (1)": {
+        "precision": 0.9137931034482759,
+        "recall": 0.8760330578512396,
+        "f1-score": 0.8945147679324894,
+        "support": 363.0
+      },
+      "accuracy": 0.9185667752442996,
+      "macro avg": {
+        "precision": 0.9176295360173317,
+        "recall": 0.9111348084955123,
+        "f1-score": 0.9141008852925047,
+        "support": 921.0
+      },
+      "weighted avg": {
+        "precision": 0.9184418100140371,
+        "recall": 0.9185667752442996,
+        "f1-score": 0.9182477831048858,
+        "support": 921.0
+      }
+    },
+    "score_name": "spam_decision_score",
+    "fit_seconds": 0.2651966559999437
+  }
+}
