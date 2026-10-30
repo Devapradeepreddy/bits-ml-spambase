@@ -16,7 +16,7 @@ from src.core import ROOT, FEATURES, MODEL_FILES, METRICS, read_test_csv, evalua
 
 st.set_page_config(page_title="SpamScope | ML comparison", page_icon="✉", layout="wide")
 st.markdown("""<style>
-.block-container {padding-top:2rem; max-width:1280px;}
+.block-container {padding-top:4.5rem; max-width:1280px;}
 [data-testid="stMetric"] {background:#f0f7fb; border:1px solid #d8e8f1; border-radius:10px; padding:12px;}
 [data-testid="stMetricValue"] {color:#164e63;}
 .eyebrow {color:#0e7490; font-weight:700; letter-spacing:.14em; font-size:.8rem;}
